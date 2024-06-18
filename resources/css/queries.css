@@ -1,0 +1,51 @@
+@media only screen and (max-width: 1200px) {
+  /*Telas grandes de até 1200px de largura*/
+  .row {
+    /*vamos colocar um espaçamento mínimo entre as laterais da linha (row) e a borda do navegador*/
+    padding: 0 2%; /*topo e bottom = 0 | right e left = 2%*/
+  }
+ 
+}
+
+@media only screen and (min-width: 1024px) {
+    /*Pequenos e grandes tablets: largura entre 768px e 1023px*/
+    button.menu-mobile {
+        display: none;
+    }
+  
+    .menu {
+        display: flex;
+    }
+  }
+  
+
+@media only screen and (max-width: 1023px) {
+  /*Pequenos e grandes tablets: largura entre 768px e 1023px*/
+  button.menu-mobile {
+    display: flex !important;
+  }
+
+  .menu {
+      display: none;
+  }
+
+  .banner h1{
+      font-size: 4em;
+  }
+
+  .overview-wrapper {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+
+}
+
+@media only screen and (max-width: max-width: 767px) {
+    /*Pequenos telefones até pequenos tablets: largura entre 481px e 767px*/
+}
+
+@media only screen and (max-width: max-width: 480px) {
+    /*Pequenos celulares: largura entre 0px e 480px*/
+}
+ */
